@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Roboto&display=swap');
+
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .3);
+}
+
+/* .modal {
+  width: 627px;
+  height: 499px;
+  padding: 1rem;
+  background: #fff;
+  margin-top: 3rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+} */
+/* .modal {
+  position: absolute;
+width: 627px;
+height: 499px;
+left: 407px;
+top: 263px;
+background: #fff;
+} */
+
+.modal-window {
+  position: absolute;
+  /* padding: 64px; */
+  width: 627px;
+  height: 499px;
+  left: 406px;
+  top: 262px;
+
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.close:hover {
+opacity: 1;
+}
+.close:before, .close:after {
+position: absolute;
+left: 15px;
+content: ' ';
+height: 33px;
+width: 2px;
+background-color: #303247;
+
+}
+.close:before {
+transform: rotate(45deg);
+}
+.close:after {
+transform: rotate(-45deg);
+}
+
+.modal-header span {
+  position: absolute;
+width: 234px;
+height: 42px;
+left: 65px;
+top: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 42px;
+
+color: #303247;
+}
+
+.modal-body-title {
+  position: absolute;
+width: 227px;
+height: 24px;
+left: 64px;
+top: 138px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #303247;
+}
+
+.modal-body-amount {
+  position: absolute;
+width: 250px;
+height: 24px;
+left: 64px;
+top: 194px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #303247;
+}
+
+.modal-body-ends {
+  position: absolute;
+width: 285px;
+height: 24px;
+left: 64px;
+top: 226px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #303247;
+}
+
+.modal-subheader span {
+  position: absolute;
+width: 281px;
+height: 36px;
+left: 64px;
+top: 314px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #303247;
+}
+
+.modal-footer {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 16px 32px;
+gap: 10px
+
+}
+
+.modal-footer input {
+  position: absolute;
+  width: 328px;
+  height: 56px;
+  left: 66px;
+  top: 379px;
+  background: #FFFFFF;
+  border: 1px solid rgba(48, 50, 71, 0.1);
+  border-radius: 5px;
+
+}
+
+.modalInput {
+  width: 52px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #303247;
+
+}
+
+.modal-footer button {
+  position: absolute;
+width: 137px;
+height: 56px;
+left: 426px;
+top: 379px;
+background: #F7E308;
+border-radius: 5px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #303247;
+}

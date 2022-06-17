@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+/*main section*/
+
+header {
+  padding: 32px;
+  width: 100%;
+  border-bottom: 1px solid rgba(48, 50, 71, 0.1);
+}
+h1 {
+  width: 206px;
+  height: 36px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #303247;
+
+}
+
+.main {
+  padding: 30px;
+}
+
+
+.main .block {
+  position: relative;
+  margin-bottom: 30px;
+  width: 676px;
+  height: 134px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  border: 1px solid rgba(48, 50, 71, 0.1);
+  border-radius: 20px;
+}
+
+.invested {
+  position: absolute;
+  width: 67px;
+  height: 20px;
+  left: 577px;
+  top: 13px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #51A571;
+}
+
+.hide {
+  display: none;
+}
+
+.main .block .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .block .text span {
+  margin-bottom: 10px;
+}
+
+.main .block .text span:last-child {
+  margin-bottom: 0;
+}
+
+.loanName {
+  position: absolute;
+  width: 151px;
+  height: 30px;
+  left: 32px;
+  top: 32px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #303247;
+}
+
+.deatails {
+  position: absolute;
+  width: 222px;
+  height: 24px;
+  left: 33px;
+  top: 78px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #303247;
+}
+
+/*main button*/
+
+.mainBtn {
+  position: absolute;
+  width: 137px;
+  height: 56px;
+  left: 507px;
+  top: 46px;
+  background: #F7E308;
+  outline: none;
+  border-radius: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #303247;
+}
+
+.total {
+  position: absolute;
+  width: 369px;
+  height: 24px;
+  left: 64px;
+  top: 658px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #303247;
+
+}
+
+.availableAmount {
+  position: absolute;
+  width: 96px;
+  height: 24px;
+  left: 651px;
+  top: 658px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #303247;
+}

@@ -1,0 +1,46 @@
+
+
+  <header class="header">
+    <h1>Current Loans</h1>
+</header>
+
+<div class="main">
+    <div class="block">
+        <div class="text">
+            <span class="loanName">Loan name 1</span>
+            <span class="deatails">Loan details and values</span>
+        </div>
+        <button class="mainBtn item_btn" (click)="modal = true">Invest</button>
+    </div>
+    <div class="block">
+        <div class="text">
+            <span class="loanName">Loan name 1</span>
+            <span class="deatails">Loan details and values</span>
+        </div>
+        <button class="mainBtn item_btn" (click)="modal = true">Invest</button>
+    </div>
+    <div class="block">
+        <div class="text">
+            <span class="loanName">Loan name 1</span>
+            <span class="deatails">Loan details and values</span>
+        </div>
+        <button class="mainBtn item_btn" (click)="modal = true">Invest</button>
+    </div>
+
+</div>
+
+
+  <div class="total">
+    <p>Total amount available for investment:</p>
+  </div>
+
+<div class="availableAmount">
+  <p>${{amount}}</p>
+</div>
+
+<app-modal
+*ngIf="modal"
+title="modal window"
+(close)="modal = false"
+></app-modal>
+
